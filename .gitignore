@@ -11,11 +11,18 @@ ENV/
 
 # Streamlit
 .streamlit/secrets.toml
+# secrets.toml.example은 커밋 가능 (예제 파일)
 
 # Generated files
 generated_worksheets/
 *.jpg
 *.png
+
+# Desktop app (contains hardcoded API key - use app.py for web)
+worksheet_generator.py
+build_exe.bat
+build_exe.sh
+BUILD_INSTRUCTIONS.md
 
 # IDE
 .vscode/
